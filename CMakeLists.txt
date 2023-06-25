@@ -10,7 +10,8 @@ include_directories(glfw/include)
 include_directories(glad/include)
 include_directories(Application/include)
 
-add_executable(${PROJECT_NAME} Application/src/main.cpp 
+add_executable(${PROJECT_NAME} Application/src/win.cpp
+                               Application/src/main.cpp 
                                Application/src/glad.c
                                Application/src/render.cpp
                                )
@@ -20,4 +21,4 @@ target_link_directories(${PROJECT_NAME}
     PRIVATE build/Engine
     )
 
-target_link_libraries(${PROJECT_NAME} glfw3 engine)
+target_link_libraries(${PROJECT_NAME} X11 GL engine)
