@@ -3,6 +3,7 @@
 #include "GLFW/glfw3.h"
 
 #include "../../Engine/include/engine.h"
+#include "render.h"
 
 int main()
 {
@@ -24,6 +25,7 @@ int main()
 	}
 	std::cout << "Version : " << glGetString(GL_VERSION);
 	Engine e;
+	Render r;
 	while (!glfwWindowShouldClose(window))
 	{
 		glClearColor(0.2f, 0.1f, 0.2f, 1.0f);
