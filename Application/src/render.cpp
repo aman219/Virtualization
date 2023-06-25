@@ -9,3 +9,4 @@ Render::~Render()
 {
     std::cout << "This is render class destructor\n";
 }
+

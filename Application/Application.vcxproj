@@ -22,9 +22,11 @@
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\render.cpp" />
+    <ClCompile Include="src\win.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\render.h" />
+    <ClInclude Include="include\win.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.vcxproj">
