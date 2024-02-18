@@ -1,7 +1,11 @@
-#include <iostream>
+
+#include "window.h"
+
 
 int main(int argc, char* argv[])
 {
-    std::cout << "This is application module\n";
+    Window window;
+    window.init();
+    window.run();
     return 0;
 }
