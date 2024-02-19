@@ -31,6 +31,18 @@
 *.out
 *.app
 
+# visual studio files
+*.vcxproj
+*.vcxproj.*
+*.sln
+
+
+bin/
+bin-int/
+extrenal/glfw/bin/
+external/glfw/bin-int/
+
 build/
 .vscode/
 bin/
+.vs/
