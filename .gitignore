@@ -39,8 +39,7 @@
 
 bin/
 bin-int/
-extrenal/glfw/bin/
-external/glfw/bin-int/
+log/
 
 build/
 .vscode/
